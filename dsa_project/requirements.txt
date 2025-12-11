@@ -7,10 +7,10 @@ numpy==1.26.4
 
 beautifulsoup4==4.12.3
 requests==2.31.0
-lxml==5.2.1
 
 rapidfuzz==3.9.1
 python-Levenshtein==0.25.1
 
 tqdm==4.66.2
 rich==13.7.1
+
