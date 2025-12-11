@@ -1,0 +1,7 @@
+{
+  "stack": "Skip to content Interview Prep DSA Interview Corner Aptitude & Reasoning Practice Coding Problems All Courses Tutorials Python Java ML & Data Science Programming Languages Web Development CS Subjects DevOps Software and Tools School Learning Tracks Languages Python C C++ Java Advanced Java SQL JavaScript C# Interview Preparation GfG 160 GfG 360 System Design Core Subjects Interview Questions Inter",
+  "queue": "Open In App Queue Data Structure Last Updated : 23 Jul, 2025 Comments Improve Suggest changes 44 Likes Like Report A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order. It follows the principle of \" First in, First out \" (FIFO) , where the first element added to the queue is the first one to be removed. It is used as a buffer in",
+  "binary_search": "Open In App Binary Search Last Updated : 10 Sep, 2025 Comments Improve Suggest changes 1.14k Likes Like Report Try it on GfG Practice Binary Search is a searching algorithm that operates on a sorted or monotonic search space, repeatedly dividing it into halves to find a target value or optimal answer in logarithmic time O(log N). Binary Search Algorithm Conditions to apply Binary Search Algorithm ",
+  "avl_tree": "A data structure or algorithm related to AVL Tree.",
+  "sparse_matrix": "A data structure or algorithm related to Sparse Matrix."
+}

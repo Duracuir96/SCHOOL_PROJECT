@@ -1,0 +1,712 @@
+{
+  "array": {
+    "name": "Array",
+    "type": "linear_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "access",
+      "update",
+      "insert",
+      "delete"
+    ],
+    "principle": "Contiguous memory block",
+    "description": "Open In App Array Data Structure Last Updated : 08 Dec, 2025 Comments Improve Suggest changes 64 Likes Like Report An array is a fundamental and linear data structure that stores items at contiguous locations. Note that in case of C/C++ and Java-Primitive-Arrays, actual elements are stored at contiguous locations. And in case of Python, JS, Java-Non-Primitive, references are stored at contiguous l",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_array"
+  },
+  "matrix": {
+    "name": "Matrix",
+    "type": "2d_array",
+    "category": "data_structure",
+    "basic_ops": [
+      "row_access",
+      "col_access",
+      "transform"
+    ],
+    "principle": "2D array stored in row-major or column-major order.",
+    "description": "Open In App Matrix Data Structure Last Updated : 13 Aug, 2025 Comments Improve Suggest changes 6 Likes Like Report Matrix Data Structure is a two-dimensional array arranged in rows and columns. It is commonly used to represent mathematical matrices and is fundamental in various fields like mathematics, computer graphics, and data processing. Matrices allow for efficient storage and manipulation of",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "scientific_computing"
+    ],
+    "id": "dsa_matrix"
+  },
+  "sequential_list": {
+    "name": "Sequential List",
+    "type": "array_based_list",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "search"
+    ],
+    "principle": "List implemented using arrays.",
+    "description": "A sequential list (or array) is a fundamental linear collection of elements where each element can be individually accessed via its index but only within contiguous memory locations; the primary operations are indexing to retrieve values, appending or inserting at specific positions with associated costs, and removing items by shifting subsequent elements. Key ideas include zero-based indexing for...",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_sequential_list"
+  },
+  "linked_list": {
+    "name": "Singly Linked List",
+    "type": "linked_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "traverse",
+      "search"
+    ],
+    "principle": "Nodes connected via next pointers.",
+    "description": "A Singly Linked List is a linear collection of nodes where each node contains data and a pointer/reference to the next node in the sequence; it allows for efficient insertions or removals at both ends but not as efficiently within-sequence without iterating, with common use cases including implementing caches due to its speedy access times.",
+    "relations": [
+      "data_structure",
+      "dynamic_structure",
+      "linear_structure",
+      "pointer_based",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_linked_list"
+  },
+  "doubly_linked_list": {
+    "name": "Doubly Linked List",
+    "type": "linked_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "traverse_forward",
+      "traverse_backward"
+    ],
+    "principle": "Nodes linked with both next and prev pointers.",
+    "description": "Open In App Doubly Linked List Tutorial Last Updated : 19 Sep, 2025 Comments Improve Suggest changes 23 Likes Like Report Try it on GfG Practice A doubly linked list is a more complex data structure than a singly linked list, but it offers several advantages. The main advantage of a doubly linked list is that it allows for efficient traversal of the list in both directions. This is because each no",
+    "relations": [
+      "data_structure",
+      "dynamic_structure",
+      "linear_structure",
+      "pointer_based",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_doubly_linked_list"
+  },
+  "circular_linked_list": {
+    "name": "Circular Linked List",
+    "type": "linked_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "loop_traverse"
+    ],
+    "principle": "Last node points back to head.",
+    "description": "Open In App Introduction to Circular Linked List Last Updated : 15 Sep, 2025 Comments Improve Suggest changes 338 Likes Like Report A circular linked list is a data structure where the last node points back to the first node, forming a closed loop. Structure: All nodes are connected in a circle, enabling continuous traversal without encountering NULL . Difference from Regular Linked List: In a reg",
+    "relations": [
+      "data_structure",
+      "dynamic_structure",
+      "linear_structure",
+      "pointer_based",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_circular_linked_list"
+  },
+  "general_list": {
+    "name": "General List",
+    "type": "adt",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "search"
+    ],
+    "principle": "An abstract list supporting linear or non-linear storage.",
+    "description": "The General List is a fundamental abstract data type used to store elements sequentially with each element being identified by its position within the list. The primary operation of this structure includes adding or removing items while maintaining order, accessed via indexing starting from zero for retrieval and modification purposes. Main operations include enqueue (addition) at both ends ('push...",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_general_list"
+  },
+  "generalized_list": {
+    "name": "Generalized List",
+    "type": "nested_list",
+    "category": "data_structure",
+    "basic_ops": [
+      "depth",
+      "evaluate",
+      "flatten"
+    ],
+    "principle": "List whose elements can be atoms or sub-lists.",
+    "description": "A Generalized List is a versatile abstract data type (ADT) that extends traditional list structures to accommodate various types of elements without requiring the storage system to understand specific element types beforehand. The core concept lies in its ability to handle homogeneously or heterogeneously typed objects, thereby supporting dynamic and generic programming techniques. Key operations ...",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_generalized_list"
+  },
+  "stack": {
+    "name": "Stack",
+    "type": "linear_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "push",
+      "pop",
+      "top",
+      "is_empty"
+    ],
+    "principle": "LIFO (Last-In-First-Out)",
+    "description": "Skip to content Interview Prep DSA Interview Corner Aptitude & Reasoning Practice Coding Problems All Courses Tutorials Python Java ML & Data Science Programming Languages Web Development CS Subjects DevOps Software and Tools School Learning Tracks Languages Python C C++ Java Advanced Java SQL JavaScript C# Interview Preparation GfG 160 GfG 360 System Design Core Subjects Interview Questions Inter",
+    "relations": [
+      "data_structure",
+      "lifo_structure",
+      "recursion_support"
+    ],
+    "use_cases": [
+      "function_call_stack",
+      "undo_operations"
+    ],
+    "id": "dsa_stack"
+  },
+  "queue": {
+    "name": "Queue",
+    "type": "linear_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "enqueue",
+      "dequeue",
+      "front",
+      "is_empty"
+    ],
+    "principle": "FIFO (First-In-First-Out)",
+    "description": "Open In App Queue Data Structure Last Updated : 23 Jul, 2025 Comments Improve Suggest changes 45 Likes Like Report A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order. It follows the principle of \" First in, First out \" (FIFO) , where the first element added to the queue is the first one to be removed. It is used as a buffer in",
+    "relations": [
+      "data_structure",
+      "fifo_structure",
+      "scheduling"
+    ],
+    "use_cases": [
+      "task_scheduling",
+      "bfs_traversal"
+    ],
+    "id": "dsa_queue"
+  },
+  "hash_table": {
+    "name": "Hash Table",
+    "type": "mapping_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "search"
+    ],
+    "principle": "Maps keys to values using a hash function.",
+    "description": "Open In App Hash Table Data Structure Last Updated : 23 Jul, 2025 Comments Improve Suggest changes 23 Likes Like Report What is Hash Table? A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly. It operates on the hashing concept , where each key is translated by a hash function into a distinct index in an array. The index functions as a storage lo",
+    "relations": [
+      "data_structure"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_hash_table"
+  },
+  "sparse_matrix": {
+    "name": "Sparse Matrix",
+    "type": "matrix_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "store",
+      "retrieve",
+      "add",
+      "multiply"
+    ],
+    "principle": "Optimized storage for matrices with many zeros.",
+    "description": "A sparse matrix is a specialized mathematical construct where most of its elements are zero. The primary characteristic that defines it as \"sparse\" lies not in the individual values but rather their overall structure; specifically, this data structure efficiently represents matrices with numerous absent or negligible non-zero entries using significantly less memory than dense storage forms would r...",
+    "relations": [
+      "compressed_representation",
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "scientific_computing"
+    ],
+    "id": "dsa_sparse_matrix"
+  },
+  "coo_format": {
+    "name": "COO Format",
+    "type": "sparse_representation",
+    "category": "data_structure",
+    "basic_ops": [
+      "store",
+      "iterate"
+    ],
+    "principle": "Stores triples (row, col, value).",
+    "description": "The Coordinate List (COO) format is a sparse matrix representation that stores only non-zero elements along with their row indices and column indices to save memory and computational resources when dealing with large matrices where most of the elements are zeroes. The key idea behind COO format lies in its simplicity, which allows for easy insertion or deletion operations but can lead to less effi...",
+    "relations": [
+      "data_structure"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_coo_format"
+  },
+  "csr_format": {
+    "name": "CSR Format",
+    "type": "sparse_representation",
+    "category": "data_structure",
+    "basic_ops": [
+      "row_pointer",
+      "compressed_storage"
+    ],
+    "principle": "Compressed Sparse Row representation.",
+    "description": "The Compressed Sparse Row (CSR) format is a storage scheme for representing sparse matrices efficiently by compacting nonzero elements along with their row indices into arrays while maintaining the sparsity structure of the matrix to minimize memory usage without compromising on computational efficiency, typically used in graph algorithms and scientific computations involving large sparse systems....",
+    "relations": [
+      "data_structure"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_csr_format"
+  },
+  "tree": {
+    "name": "Tree",
+    "type": "hierarchical_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "traverse",
+      "depth",
+      "height"
+    ],
+    "principle": "Hierarchical structure of nodes and children.",
+    "description": "Open In App Tree Data Structure Last Updated : 08 Dec, 2025 Comments Improve Suggest changes 27 Likes Like Report Tree Data Structure is a non-linear data structure in which a collection of elements known as nodes are connected to each other via edges such that there exists exactly one path between any two nodes. Types of Tree Binary Tree : Every node has at most two children Ternary Tree : Every ",
+    "relations": [
+      "data_structure",
+      "hierarchical_structure",
+      "recursion"
+    ],
+    "use_cases": [
+      "hierarchical_data",
+      "database_indexing"
+    ],
+    "id": "dsa_tree"
+  },
+  "binary_tree": {
+    "name": "Binary Tree",
+    "type": "tree_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "preorder",
+      "inorder",
+      "postorder"
+    ],
+    "principle": "Each node has at most two children.",
+    "description": "Open In App Binary Tree Data Structure Last Updated : 02 Aug, 2025 Comments Improve Suggest changes 17 Likes Like Report A Binary Tree Data Structure is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. It is commonly used in computer science for efficient storage and retrieval of data, with various operations such as inse",
+    "relations": [
+      "data_structure",
+      "hierarchical_structure",
+      "recursion"
+    ],
+    "use_cases": [
+      "hierarchical_data",
+      "database_indexing"
+    ],
+    "id": "dsa_binary_tree"
+  },
+  "bst": {
+    "name": "Binary Search Tree",
+    "type": "tree_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "insert",
+      "delete",
+      "search"
+    ],
+    "principle": "Left subtree < root < right subtree.",
+    "description": "Open In App Binary Search Tree Last Updated : 06 Dec, 2025 Comments Improve Suggest changes 27 Likes Like Report A Binary Search Tree (BST) is a type of binary tree data structure in which each node contains a unique key and satisfies a specific ordering property: All nodes in the left subtree of a node contain values strictly less than the node’s value. All nodes in the right subtree of a node co",
+    "relations": [
+      "data_structure"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_bst"
+  },
+  "avl_tree": {
+    "name": "AVL Tree",
+    "type": "balanced_tree",
+    "category": "data_structure",
+    "basic_ops": [
+      "rotate_LL",
+      "rotate_RR",
+      "rotate_LR",
+      "rotate_RL"
+    ],
+    "principle": "Self-balancing BST with height constraints.",
+    "description": "An AVL tree is a self-balancing binary search tree wherein the balance factor of any node (the height difference between its left and right subtrees) must always be -1, 0, or +1; this property ensures O(log n) time complexity for insertion, deletion, and lookup operations. The key idea behind an AVL tree is that it maintains a strict balance by performing rotations on the fly when imbalances occur...",
+    "relations": [
+      "data_structure",
+      "hierarchical_structure",
+      "recursion"
+    ],
+    "use_cases": [
+      "hierarchical_data",
+      "database_indexing"
+    ],
+    "id": "dsa_avl_tree"
+  },
+  "huffman_tree": {
+    "name": "Huffman Tree",
+    "type": "compression_tree",
+    "category": "data_structure",
+    "basic_ops": [
+      "encode",
+      "decode"
+    ],
+    "principle": "Optimal prefix coding.",
+    "description": "The Huffman tree is a type of binary tree used for efficient lossless data compression, named after its creator David A. Huffman who proposed the algorithm in 1952. It works by creating a frequency-sorted binary tree where each leaf node represents an item from the input and assigns variable length prefix codes based on their frequencies to minimize total codeword lengths; shorter ones are assigne...",
+    "relations": [
+      "data_structure",
+      "hierarchical_structure",
+      "recursion"
+    ],
+    "use_cases": [
+      "hierarchical_data",
+      "database_indexing"
+    ],
+    "id": "dsa_huffman_tree"
+  },
+  "graph": {
+    "name": "Graph",
+    "type": "network_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "add_vertex",
+      "add_edge",
+      "remove_vertex",
+      "remove_edge"
+    ],
+    "principle": "Vertices connected via edges.",
+    "description": "Open In App Graph Data Structure Last Updated : 23 Jul, 2025 Comments Improve Suggest changes 5 Likes Like Report Graph Data Structure is a collection of nodes connected by edges . It's used to represent relationships between different entities. If you are looking for topic-wise list of problems on different topics like DFS, BFS, Topological Sort, Shortest Path, etc., please refer to Graph Algorit",
+    "relations": [
+      "data_structure",
+      "network_structure",
+      "traversal_bfs_dfs"
+    ],
+    "use_cases": [
+      "network_routing"
+    ],
+    "id": "dsa_graph"
+  },
+  "adjacency_matrix": {
+    "name": "Adjacency Matrix",
+    "type": "graph_representation",
+    "category": "data_structure",
+    "basic_ops": [
+      "edge_lookup",
+      "update"
+    ],
+    "principle": "Matrix representation of graph edges.",
+    "description": "Open In App Adjacency Matrix Representation Last Updated : 19 Mar, 2025 Comments Improve Suggest changes Like Article Like Report Adjacency Matrix is a square matrix used to represent a finite graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph. An adjacency matrix is a simple and straightforward way to represent graphs and is particularly useful f",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "scientific_computing"
+    ],
+    "id": "dsa_adjacency_matrix"
+  },
+  "adjacency_list": {
+    "name": "Adjacency List",
+    "type": "graph_representation",
+    "category": "data_structure",
+    "basic_ops": [
+      "traverse_neighbors"
+    ],
+    "principle": "Each vertex stores a list of neighbors.",
+    "description": "An adjacency list is a common graph representation used for its space efficiency and ease of iterating through adjacent vertices; it stores all edges as individual pairs or connections in an array where each index corresponds to a vertex with associated linked lists containing pointers/references to neighboring vertices, facilitating operations like traversal without needing extra memory proportio...",
+    "relations": [
+      "data_structure",
+      "linear_structure",
+      "sequential_access"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_adjacency_list"
+  },
+  "union_find": {
+    "name": "Union-Find",
+    "type": "disjoint_set_structure",
+    "category": "data_structure",
+    "basic_ops": [
+      "find",
+      "union"
+    ],
+    "principle": "Partition data into disjoint subsets.",
+    "description": "Open In App Introduction to Disjoint Set (Union-Find Data Structure) Last Updated : 24 Jul, 2025 Comments Improve Suggest changes 261 Likes Like Report Try it on GfG Practice Two sets are called disjoint sets if they don't have any element in common. The disjoint set data structure is used to store such sets. It supports following operations: Merging two disjoint sets to a single set using Union o",
+    "relations": [
+      "data_structure"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_union_find"
+  },
+  "linear_search": {
+    "name": "Linear Search",
+    "type": "search_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "scan"
+    ],
+    "principle": "Sequential search over elements.",
+    "description": "Open In App Linear Search Algorithm Last Updated : 22 Oct, 2025 Comments Improve Suggest changes 1.10k Likes Like Report Try it on GfG Practice Given an array, arr[] of n integers, and an integer element x , find whether element x is present in the array. Return the index of the first occurrence of x in the array, or -1 if it doesn't exist. Input : arr[] = [1, 2, 3, 4], x = 3 Output : 2 Explanatio",
+    "relations": [
+      "algorithm",
+      "lookup_operation"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_linear_search"
+  },
+  "binary_search": {
+    "name": "Binary Search",
+    "type": "search_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "mid_compare",
+      "divide"
+    ],
+    "principle": "Divide search space by half.",
+    "description": "Open In App Binary Search Last Updated : 10 Sep, 2025 Comments Improve Suggest changes 1.14k Likes Like Report Try it on GfG Practice Binary Search is a searching algorithm that operates on a sorted or monotonic search space, repeatedly dividing it into halves to find a target value or optimal answer in logarithmic time O(log N). Binary Search Algorithm Conditions to apply Binary Search Algorithm ",
+    "relations": [
+      "algorithm",
+      "lookup_operation"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_binary_search"
+  },
+  "bubble_sort": {
+    "name": "Bubble Sort",
+    "type": "sorting_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "swap",
+      "compare"
+    ],
+    "principle": "Repeatedly swap adjacent elements if out of order.",
+    "description": "Open In App Bubble Sort Last Updated : 08 Dec, 2025 Comments Improve Suggest changes 875 Likes Like Report Try it on GfG Practice Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not efficient for large data sets as its average and worst-case time complexity are quite high. Sorts the array using ",
+    "relations": [
+      "algorithm",
+      "ordering"
+    ],
+    "use_cases": [
+      "data_ordering"
+    ],
+    "id": "dsa_bubble_sort"
+  },
+  "merge_sort": {
+    "name": "Merge Sort",
+    "type": "sorting_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "split",
+      "merge"
+    ],
+    "principle": "Divide-and-conquer sorting algorithm.",
+    "description": "Open In App Merge Sort Last Updated : 03 Oct, 2025 Comments Improve Suggest changes 1.31k Likes Like Report Try it on GfG Practice Merge sort is a popular sorting algorithm known for its efficiency and stability. It follows the  Divide and Conquer approach.  It works by recursively dividing the input array into two halves,  recursively sorting the two halves and finally merging them back  together",
+    "relations": [
+      "algorithm",
+      "ordering"
+    ],
+    "use_cases": [
+      "data_ordering"
+    ],
+    "id": "dsa_merge_sort"
+  },
+  "quick_sort": {
+    "name": "Quick Sort",
+    "type": "sorting_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "partition",
+      "recursive_sort"
+    ],
+    "principle": "Divide around pivot element.",
+    "description": "Open In App Quick Sort Last Updated : 08 Dec, 2025 Comments Improve Suggest changes 878 Likes Like Report Try it on GfG Practice QuickSort is a sorting algorithm based on the Divide and Conquer that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array. . There are mainly three steps in the algorithm: Cho",
+    "relations": [
+      "algorithm",
+      "ordering"
+    ],
+    "use_cases": [
+      "data_ordering"
+    ],
+    "id": "dsa_quick_sort"
+  },
+  "bfs": {
+    "name": "Breadth-First Search",
+    "type": "graph_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "enqueue",
+      "visit"
+    ],
+    "principle": "Level-order exploration.",
+    "description": "The Breadth-First Search (BFS) is a graph traversal algorithm that explores vertices of a graph systematically by visiting neighbors before moving on to the next level neighbors. Starting from a selected root node, it employs a queue data structure to maintain a record of all nodes yet to be visited and processes them in FIFO order until all reachable nodes have been examined or the desired target...",
+    "relations": [
+      "algorithm",
+      "graph_traversal"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_bfs"
+  },
+  "dfs": {
+    "name": "Depth-First Search",
+    "type": "graph_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "push",
+      "visit"
+    ],
+    "principle": "Explore depth first.",
+    "description": "The Depth-first search (DFS) is a traversal method used to explore all the vertices of a graph or tree systematically by starting at an arbitrary root vertex and exploring as far along each branch before backtracking. The main idea behind DFS involves using recursion or a stack data structure, where unvisited neighboring nodes are pushed onto this \"stack\", visited ones being removed to avoid repet...",
+    "relations": [
+      "algorithm",
+      "graph_traversal"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_dfs"
+  },
+  "dijkstra": {
+    "name": "Dijkstra Algorithm",
+    "type": "shortest_path_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "relax",
+      "extract_min"
+    ],
+    "principle": "Find shortest paths with non-negative weights.",
+    "description": "The Dijkstra's Algorithm is a graph search technique used for finding the shortest paths between nodes in a weighted graph with non-negative weights only; it iteratively expands from an initial node by selecting the vertex closest to previously visited vertices, updating their distances and predecessors if shorter paths are found. Key operations involve maintaining a priority queue (often implemen...",
+    "relations": [
+      "algorithm",
+      "shortest_path"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_dijkstra"
+  },
+  "bellman_ford": {
+    "name": "Bellman-Ford Algorithm",
+    "type": "shortest_path_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "relax"
+    ],
+    "principle": "Handles negative weights.",
+    "description": "Open In App Bellman-Ford Algorithm in C Last Updated : 23 Jul, 2025 Comments Improve Suggest changes Like Article Like Report The Bellman-Ford algorithm helps find the shortest path from one starting point to all other points in a graph, even if some paths have negative weights. It's useful for network routing problems. In this article, we will learn about the Bellman-Ford algorithm and how to imp",
+    "relations": [
+      "algorithm",
+      "shortest_path"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_bellman_ford"
+  },
+  "recursion": {
+    "name": "Recursion",
+    "type": "programming_technique",
+    "category": "algorithm",
+    "basic_ops": [
+      "call",
+      "base_case"
+    ],
+    "principle": "Function calling itself.",
+    "description": "Open In App Introduction to Recursion Last Updated : 25 Oct, 2025 Comments Improve Suggest changes 544 Likes Like Report The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function. A recursive algorithm takes one step toward solution and then recursively call itself to further move. The algorithm stops once ",
+    "relations": [
+      "algorithm"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_recursion"
+  },
+  "factorial_recursive": {
+    "name": "Recursive Factorial",
+    "type": "recursive_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "call",
+      "multiply"
+    ],
+    "principle": "n! = n * (n-1)!",
+    "description": "The Recursive Factorial is a mathematical computation where the factorial of a non-negative integer n (denoted as n!) is calculated through recursion by multiplying n with the factorial of its preceding number until reaching the base case of zero or one, for which the result is immediately known. The key idea involves defining two cases: if n equals 0 or 1, return 1; otherwise, recursively call th...",
+    "relations": [
+      "algorithm"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_factorial_recursive"
+  },
+  "fibonacci_recursive": {
+    "name": "Recursive Fibonacci",
+    "type": "recursive_algorithm",
+    "category": "algorithm",
+    "basic_ops": [
+      "call",
+      "sum"
+    ],
+    "principle": "fib(n) = fib(n-1) + fib(n-2)",
+    "description": "The Recursive Fibonacci is an elegant demonstration of a recursive algorithm applied to compute the nth number in the famous Fibonacci sequence; its fundamental principle involves breaking down larger problems into smaller instances by calling itself with (n-1) and (n-2), summing these results for each invocation until reaching base cases, commonly used to illustrate recursion' end goals. While co...",
+    "relations": [
+      "algorithm"
+    ],
+    "use_cases": [
+      "general_dsa_application"
+    ],
+    "id": "dsa_fibonacci_recursive"
+  }
+}
