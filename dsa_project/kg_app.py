@@ -50,20 +50,33 @@ st.set_page_config(
 @st.cache_resource
 def load_engines():
     """
-    Load the knowledge graph file and initialize:
-        - DsaTutorEngine
-        - KnowledgeGraphSearch
-
-    The logic here is the same as in your original implementation.
+    Charge le fichier du graphe de connaissances et initialise les moteurs.
     """
-    graph_path = Path("..") / "data" / "knowledge_graph.json"
-    if not graph_path.exists():
-        alt = Path("data") / "knowledge_graph.json"
-        if alt.exists():
-            graph_path = alt
+    import os
+    from pathlib import Path
 
-    if not graph_path.exists():
-        raise FileNotFoundError(f"Cannot find knowledge_graph.json at {graph_path}")
+    # --- DÉBUT DE LA CORRECTION ---
+    # Essayer plusieurs emplacements possibles
+    emplacements_possibles = [
+        Path("data/knowledge_graph.json"),           # Si data/ est à la racine
+        Path("dsa_project/data/knowledge_graph.json"), # Si data/ est dans dsa_project/
+        Path("../data/knowledge_graph.json"),        # Ancien chemin (pour compatibilité)
+        Path(__file__).parent / "data" / "knowledge_graph.json", # Chemin précis basé sur kg_app.py
+    ]
+
+    graph_path = None
+    for chemin in emplacements_possibles:
+        if chemin.exists():
+            graph_path = chemin
+            st.sidebar.success(f"✅ Fichier trouvé : {chemin}")
+            break
+
+    if graph_path is None:
+        # Pour le débogage : lister les fichiers disponibles
+        st.error("❌ Impossible de trouver 'knowledge_graph.json'.")
+        st.write("📁 Contenu du dossier courant (pour débogage) :")
+        st.write(list(Path(".").rglob("*")))  # Montre tous les fichiers
+        raise FileNotFoundError("Fichier knowledge_graph.json introuvable. Voir la structure ci-dessus.")
 
     tutor = DsaTutorEngine(str(graph_path))
     search_engine = KnowledgeGraphSearch(str(graph_path))
@@ -459,3 +472,4 @@ knowledge graph.
 
 if __name__ == "__main__":
     main()
+
