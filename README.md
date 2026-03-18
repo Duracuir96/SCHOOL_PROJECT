@@ -1,82 +1,65 @@
-# 🎓 [NOM DU PROJET]
+# 🎓 University Projects
 
-## 📋 Table des Matières
-- [Description du Projet](#description-du-projet)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies Utilisées](#technologies-utilisées)
-- [Installation et Configuration](#installation-et-configuration)
-- [Utilisation](#utilisation)
-- [Structure du Projet](#structure-du-projet)
-- [Auteurs](#auteurs)
-- [Licence](#licence)
-- [Remerciements](#remerciements)
+> A collection of my academic projects from the School of Computer Science,
+> Wuhan University.
 
-## 📖 Description du Projet
-**Cours :** [Nom du cours]  
-**Année :** [Année scolaire]  
-**Professeur :** [Nom du professeur]  
-**Date de remise :** [Date]
+**Institution :** Wuhan University
+**Program :** Computer Science
+**Student :** [Your Name]
 
-### Contexte
-[Brève description du contexte académique et des objectifs pédagogiques]
+---
 
-### Objectifs
-- [ ] Objectif 1
-- [ ] Objectif 2  
-- [ ] Objectif 3
+## 📁 Projects
 
-### Problématique
-[Description du problème à résoudre]
+| Project | Course | Status |
+|---|---|---|
+| [Knowledge Graph](./dsa_project) | Data Structures | ✅ Completed |
+| [Optuna Architecture Analysis](./Software-Architecture-Analysis-of-Optuna) | Software Architecture | 🔄 In Progress |
+| [GuestPilot — Reservation System](#-guestpilot--reservation-system) | Software Requirements & Modeling | 🔄 In Progress |
 
-## 🚀 Fonctionnalités
-### Principales
-- ✅ **Fonctionnalité 1** : Description
-- ✅ **Fonctionnalité 2** : Description
-- ✅ **Fonctionnalité 3** : Description
+---
 
-### Secondaires
-- ⚡ **Optimisation** : Description
-- 📊 **Visualisation** : Description
-- 🔧 **Configuration** : Description
+## 🧠 Knowledge Graph
 
-## 🛠️ Technologies Utilisées
-### Langages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+**Course :** Data Structures
+**Status :** ✅ Completed
 
-### Frameworks & Bibliothèques
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+A knowledge graph implementation exploring core data structure concepts
+including graph traversal, node relationships, and efficient querying.
 
-### Outils
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+📂 [`/knowledge-graph`](./dsa_project)
 
-## ⚙️ Installation et Configuration
+---
 
-### Pré-requis
-- Python 3.8+
-- Git
-- [Autres pré-requis]
+## 🔍 Optuna Architecture Analysis
 
-### Installation
+**Course :** Software Architecture — Prof. Peng Liang
+**Status :** 🔄 In Progress
 
-#### Méthode 1 : Cloner le dépôt
-```bash
-# Cloner le projet
-git clone https://github.com/votre-nom/nom-du-projet.git
+A comprehensive architectural recovery and analysis of
+[Optuna](https://github.com/optuna/optuna),
+a state-of-the-art hyperparameter optimization framework.
 
-# Se déplacer dans le dossier
-cd nom-du-projet
+> *"How does Optuna achieve maximum extensibility while keeping
+> its core API simple enough for any ML practitioner to use ?"*
 
-# Créer un environnement virtuel (recommandé)
-python -m venv venv
+📂 [`/optuna-architecture`](./Software-Architecture-Analysis-of-Optuna)
 
-# Activer l'environnement
-# Sur Windows :
-venv\Scripts\activate
-# Sur Mac/Linux :
-source venv/bin/activate
+---
 
-# Installer les dépendances
-pip install -r requirements.txt
+## ✈️ GuestPilot — Reservation System
+
+**Course :** Software Requirements & Modeling
+**Status :** 🔄 In Progress
+
+Design and modeling of GuestPilot, a reservation management system.
+Covers requirements elicitation, use case modeling, and system specification.
+
+📂 [`/guestpilot`](./guestpilot)
+
+---
+
+## 📬 Contact
+
+**Student :** BOKANGA BOELE VOLDI 
+**Institution :** School of Computer Science, Wuhan University
