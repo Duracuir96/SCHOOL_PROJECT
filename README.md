@@ -15,7 +15,7 @@
 |---|---|---|
 | [Knowledge Graph](./dsa_project) | Data Structures | ✅ Completed |
 | [Optuna Architecture Analysis](./Software-Architecture-Analysis-of-Optuna) | Software Architecture | 🔄 In Progress |
-| [GuestPilot — Reservation System](#-guestpilot--reservation-system) | Software Requirements & Modeling | 🔄 In Progress |
+| [GuestPilot — Reservation System](./Guest_pilot) | Software Requirements & Modeling | 🔄 In Progress |
 
 ---
 
@@ -55,7 +55,7 @@ a state-of-the-art hyperparameter optimization framework.
 Design and modeling of GuestPilot, a reservation management system.
 Covers requirements elicitation, use case modeling, and system specification.
 
-📂 [`/guestpilot`](./guestpilot)
+📂 [`/guestpilot`](./Guest_pilot)
 
 ---
 
