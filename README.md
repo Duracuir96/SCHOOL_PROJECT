@@ -14,7 +14,7 @@
 | Project | Course | Status |
 |---|---|---|
 | [Knowledge Graph](./dsa_project) | Data Structures | ✅ Completed |
-| [Optuna Architecture Analysis](./Software-Architecture-Analysis-of-Optuna) | Software Architecture | 🔄 In Progress |
+| [Optuna Architecture Analysis](https://github.com/Duracuir96/Software-Architecture-Analysis-of-Optuna) | Software Architecture | 🔄 In Progress |
 | [GuestPilot — Reservation System](./Guest_pilot) | Software Requirements & Modeling | 🔄 In Progress |
 
 ---
@@ -43,7 +43,7 @@ a state-of-the-art hyperparameter optimization framework.
 > *"How does Optuna achieve maximum extensibility while keeping
 > its core API simple enough for any ML practitioner to use ?"*
 
-📂 [`/optuna-architecture`](./Software-Architecture-Analysis-of-Optuna)
+📂 [`/optuna-architecture`](https://github.com/Duracuir96/Software-Architecture-Analysis-of-Optuna)
 
 ---
 
