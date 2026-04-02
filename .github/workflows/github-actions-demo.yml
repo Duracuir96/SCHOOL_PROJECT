@@ -1,15 +1,15 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: ${{ github.actor }} is testing out GitHub Actions
 on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Triggered by ${{ github.event_name }} event."
-      - run: echo "🐧 Running on ${{ runner.os }}"
+      - run: echo "Triggered by ${{ github.event_name }} event."
+      - run: echo "Running on ${{ runner.os }}"
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: echo "💡 Repo cloned to ${{ github.workspace }}"
+      - run: echo "Repo cloned to ${{ github.workspace }}"
       - name: List files
         run: ls ${{ github.workspace }}
-      - run: echo "🍏 Status: ${{ job.status }}"
+      - run: echo "Status: ${{ job.status }}"
